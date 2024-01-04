@@ -173,7 +173,7 @@ export async function fetchInvoiceById(id: string) {
   } catch (error) {
     noStore();
     console.error('Database Error:', error);
-    throw new Error('Failed to fetch invoice.');
+    // throw new Error('Failed to fetch invoice.');
   }
 }
 
